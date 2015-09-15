@@ -1,0 +1,43 @@
+html, body {
+	background-color: #000;
+}
+.box{
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+    height: 20em;
+    margin-top: -6em;
+    top: 50%;
+    position: absolute;
+    background-color: transparent;
+    text-align: center;
+}
+.command{
+    font-weight: 600;
+    max-width: 22em;
+    border: none;
+    width: 100%;
+    font-size: 1.6em;
+    padding: 0.5em 0.2em;
+    outline: none;
+    color: #00cc00;
+    background-color: transparent;
+    text-align: left;
+    border-bottom: 2px solid #00cc00;
+}
+/* Placeholder in color*/
+::-webkit-input-placeholder {
+   color: #00cc00;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #00cc00;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #00cc00;  
+}
+
+:-ms-input-placeholder {  
+   color: #00cc00;  
+}
